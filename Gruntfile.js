@@ -9,7 +9,7 @@ module.exports = function(grunt) {
             },
             production: {
                 options: {
-                    crompress: true,
+                    compress: true,
                 },
                 files: {
                     'dist/styles/main.min.css': 'src/styles/main.less'
